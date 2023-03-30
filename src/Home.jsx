@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { PostsIndex } from "./PostsIndex";
+import { Modal } from "./Modal";
 
 export function Home() {
   // const posts = [
@@ -24,6 +25,9 @@ export function Home() {
     <div>
       <h1>Welcome to React!</h1>
       <PostsIndex posts={posts} />
+      <Modal show={true}>
+        <h1>Test</h1>
+      </Modal>
     </div>
   );
 }
