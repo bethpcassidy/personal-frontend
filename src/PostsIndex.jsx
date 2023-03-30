@@ -6,7 +6,7 @@ export function PostsIndex(props) {
         <div key={post.id}>
           <h2>{post.title}</h2>
           <h2>{post.subline}</h2>
-          <h2>{post.body}</h2>
+          <button onClick={() => props.onShowPost(post)}>More info</button>
         </div>
       ))}
     </div>
