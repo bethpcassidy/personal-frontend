@@ -36,7 +36,6 @@ export function Home() {
 
   return (
     <div>
-      <h1>Welcome to React!</h1>
       <PostsIndex posts={posts} onShowPost={handleShowPost} />
       <Modal show={isPostsShowVisible} onClose={handleClose}>
         <PostsShow post={currentPost} />
