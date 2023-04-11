@@ -10,7 +10,9 @@ export function PostsIndex(props) {
           <div className="card-body">
             <h5 class="card-title">{post.subline}</h5>
             <p class="card-text">{post.body}</p>
-            <button onClick={() => props.onShowPost(post)}>More info</button>
+            <button className="btn btn-dark" onClick={() => props.onShowPost(post)}>
+              More info
+            </button>
           </div>
         </div>
       ))}
