@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { PostsIndex } from "./PostsIndex";
 import { Modal } from "./Modal";
 import { PostsShow } from "./PostsShow";
+import { LinksShow } from "./LinksShow";
 
 export function Home() {
   // const posts = [
@@ -16,7 +17,7 @@ export function Home() {
 
   const [currentLink, setCurrentLink] = useState({});
 
-  const [link, setLinks] = useState([]);
+  const [links, setLinks] = useState([]);
 
   const handleIndexPosts = () => {
     console.log("handleIndexPosts");
