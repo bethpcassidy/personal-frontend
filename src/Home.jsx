@@ -14,6 +14,10 @@ export function Home() {
 
   const [posts, setPosts] = useState([]);
 
+  const [currentLink, setCurrentLink] = useState({});
+
+  const [link, setLinks] = useState([]);
+
   const handleIndexPosts = () => {
     console.log("handleIndexPosts");
     axios.get("http://localhost:3000/posts.json").then((response) => {
@@ -33,6 +37,28 @@ export function Home() {
   };
 
   useEffect(handleIndexPosts, []);
+
+  // links
+  const handleIndexLinks = () => {
+    console.log("handleIndexLinks");
+    axios.get("http://localhost:3000/links.json").then((response) => {
+      console.log(response.data);
+      setLinks(response.data);
+    });
+  };
+
+  const handleShowLink = (link) => {
+    console.log("handleShowLink", link);
+    setIsLinksShowVisible(true);
+    setCurrentLink(link);
+  };
+
+  const handleLinkClose = () => {
+    console.log("handleLinkClose");
+    setIsLinksShowVisisble(false);
+  };
+
+  useEffect(handleIndexLinks, []);
 
   return (
     <div>

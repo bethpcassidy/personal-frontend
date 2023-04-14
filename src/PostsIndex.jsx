@@ -8,8 +8,8 @@ export function PostsIndex(props) {
             <h2>{post.title}</h2>
           </div>
           <div className="card-body">
-            <h5 class="card-title">{post.subline}</h5>
-            <p class="card-text">{post.body}</p>
+            <h5 className="card-title">{post.subline}</h5>
+            <p className="card-text">{post.body}</p>
             <button className="btn btn-dark" onClick={() => props.onShowPost(post)}>
               More info
             </button>
