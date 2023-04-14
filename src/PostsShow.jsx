@@ -5,6 +5,7 @@ export function PostsShow(props) {
       <p>Title: {props.post.title} </p>
       <p>Subline: {props.post.subline} </p>
       <p>Body: {props.post.body}</p>
+      <p>link: {props.post.links[0].link}</p>
     </div>
   );
 }
