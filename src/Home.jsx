@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { PostsIndex } from "./PostsIndex";
 import { Modal } from "./Modal";
 import { PostsShow } from "./PostsShow";
+import { Bio } from "./Bio";
 import { LinksShow } from "./LinksShow";
 
 export function Home() {
@@ -63,6 +64,7 @@ export function Home() {
 
   return (
     <div>
+      <Bio></Bio>
       <PostsIndex posts={posts} onShowPost={handleShowPost} />
       <Modal show={isPostsShowVisible} onClose={handleClose}>
         <PostsShow post={currentPost} />
