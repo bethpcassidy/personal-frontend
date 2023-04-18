@@ -4,7 +4,6 @@ import { PostsIndex } from "./PostsIndex";
 import { Modal } from "./Modal";
 import { PostsShow } from "./PostsShow";
 import { Bio } from "./Bio";
-import { LinksShow } from "./LinksShow";
 
 export function Home() {
   // const posts = [
