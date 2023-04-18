@@ -3,14 +3,46 @@ html {
 }
 
 .card {
-  background-color: rgb(135, 133, 133);
+  background-color: rgb(17, 17, 17);
+}
+
+.card-container {
+  background-color: rgb(17, 17, 17);
 }
 
 
-
 .card-img {
+  border-radius: 8px;
   padding: 2em;
   max-width: 12cm;
   max-height: 7cm;
-  border-radius: 50%;
+  color: grey;
+}
+
+.images-container {
+  color: grey;
+  background-color: rgb(17, 17, 17);
+}
+
+.card-header {
+  color: black;
+  background-color: grey;
+}
+
+.text-center {
+  color: grey;
+  background-color: rgb(17, 17, 17);
+  border-radius: 8px;
+}
+
+.title-card { 
+  background-color: grey;
+  color: rgb(17, 17, 17);
+  border-radius: 8px;
+}
+
+.card-body {
+  color: white;
+  background-color: rgb(17, 17, 17);
+  border-radius: 8x
 }

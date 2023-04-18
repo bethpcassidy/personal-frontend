@@ -1,15 +1,15 @@
 import "./index.css";
 export function PostsIndex(props) {
   return (
-    <div class="card-container">
-      <div class="card text-center bg-light">
+    <div class="card-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <div class="card text-center bg-dark">
         <h1 class="text-center">All Posts</h1>
         {props.posts.map((post) => (
           <div key={post.id}>
-            <div className="card-header">
-              <h2>{post.title}</h2>
+            <div class="card-header">
+              <h2 class="title-card">{post.title}</h2>
             </div>
-            <div className="images-container">
+            <div class="images-container">
               <img className="card-img" src={post.links[1].link} alt="Card image" />
               <img className="card-img" src={post.links[2].link} alt="Card image" />
               <img className="card-img" src={post.links[3].link} alt="Card image" />
