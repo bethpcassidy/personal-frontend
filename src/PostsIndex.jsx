@@ -1,3 +1,4 @@
+import "./index.css";
 export function PostsIndex(props) {
   return (
     <div className="card text-center">
@@ -6,6 +7,12 @@ export function PostsIndex(props) {
         <div key={post.id}>
           <div className="card-header">
             <h2>{post.title}</h2>
+          </div>
+          <div className="images-container">
+            <img className="card-img" src={post.links[1].link} alt="Card image" />
+            <img className="card-img" src={post.links[2].link} alt="Card image" />
+            <img className="card-img" src={post.links[3].link} alt="Card image" />
+            <div className="images-container" />
           </div>
           <div className="card-body">
             <h5 className="card-title">{post.subline}</h5>
