@@ -4,6 +4,7 @@ import { PostsIndex } from "./PostsIndex";
 import { Modal } from "./Modal";
 import { PostsShow } from "./PostsShow";
 import { Bio } from "./Bio";
+import { Carousel } from "./Carousel";
 
 export function Home() {
   // const posts = [
@@ -64,6 +65,7 @@ export function Home() {
   return (
     <div>
       <Bio></Bio>
+      <Carousel></Carousel>
       <PostsIndex posts={posts} onShowPost={handleShowPost} />
       <Modal show={isPostsShowVisible} onClose={handleClose}>
         <PostsShow post={currentPost} />
