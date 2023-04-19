@@ -1,3 +1,5 @@
+import "./Carousel.css";
+
 export function Carousel(props) {
   return (
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -16,7 +18,7 @@ export function Carousel(props) {
       <div class="carousel-inner">
         <div class="carousel-item active">
           <svg
-            src="bd-placeholder-img"
+            class="bd-placeholder-img"
             width="100%"
             height="100%"
             xmlns="http://www.w3.org/2000/svg"
