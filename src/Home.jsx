@@ -65,7 +65,7 @@ export function Home() {
   return (
     <div>
       <Bio></Bio>
-      <Carousel posts={posts}></Carousel>
+      <Carousel links={links}></Carousel>
       <PostsIndex posts={posts} onShowPost={handleShowPost} />
       <Modal show={isPostsShowVisible} onClose={handleClose}>
         <PostsShow post={currentPost} />

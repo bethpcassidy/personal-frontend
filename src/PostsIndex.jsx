@@ -1,4 +1,7 @@
 import "./index.css";
+import { CCarousel } from "@coreui/react";
+import { CCarouselItem } from "@coreui/react";
+import { CImage } from "@coreui/react";
 export function PostsIndex(props) {
   return (
     <div class="card-container d-flex w-100 h-100 p-3 mx-auto flex-column">
