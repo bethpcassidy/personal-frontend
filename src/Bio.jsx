@@ -1,3 +1,4 @@
+import { CTooltip } from "@coreui/react";
 import "./bio.css";
 export function Bio() {
   return (
@@ -7,9 +8,11 @@ export function Bio() {
         <h1 class="name">Name goes here</h1>
         <p class="lead">Cover Cover Cover Cover</p>
         <p class="lead">
-          <a href="" class="btn btn-lg btn-secondary fw-bold border-white bg-dark">
-            Posts
-          </a>
+          <CTooltip content="Go straight to posts">
+            <a href="" class="btn btn-lg btn-secondary fw-bold border-white bg-dark">
+              Posts
+            </a>
+          </CTooltip>
         </p>
       </main>
     </div>
