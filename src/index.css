@@ -3,11 +3,11 @@ html {
 }
 
 .card {
-  background-color: rgb(17, 17, 17);
+  background-color: black;
 }
 
 .card-container {
-  background-color: rgb(17, 17, 17);
+  background-color: black;
 }
 
 
@@ -20,7 +20,7 @@ html {
 
 .images-container {
   color: grey;
-  background-color: rgb(17, 17, 17);
+  background-color: black;
 }
 
 .card-header {
