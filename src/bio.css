@@ -18,5 +18,9 @@
 .name{
   margin: auto;
   color: white;
-  padding: 4em;
+  padding: 4.5em;
+}
+
+.button{
+  padding: 6em;
 }
