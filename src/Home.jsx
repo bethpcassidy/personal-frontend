@@ -20,6 +20,8 @@ export function Home() {
 
   const [links, setLinks] = useState([]);
 
+  const [bios, setBios] = useState([]);
+
   const handleIndexPosts = () => {
     console.log("handleIndexPosts");
     axios.get("http://localhost:3000/posts.json").then((response) => {
@@ -62,9 +64,25 @@ export function Home() {
 
   useEffect(handleIndexLinks, []);
 
+  const handleindexBios = () => {
+    console.log("handleBios");
+    axios.get("http://localhost:3000/bios.json").then((response) => {
+      console.log(response.data);
+      setBios(response.data);
+    });
+  };
+
+  const handleShowBio = (bio) => {
+    console.log("handleShowBio", bio);
+    setIsBiosShowVisisble(true);
+    setCurrentBio(bio);
+  };
+
+  useEffect(handleindexBios, []);
+
   return (
     <div>
-      <Bio></Bio>
+      <Bio bios={bios} onShowBio={handleShowBio}></Bio>
       <Carousel links={links}></Carousel>
       <PostsIndex posts={posts} onShowPost={handleShowPost} />
       <Modal show={isPostsShowVisible} onClose={handleClose}>
