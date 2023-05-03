@@ -25,21 +25,21 @@ export function Bio(props) {
                   <CTooltip content="Go to my Github homepage.">
                     <a
                       href="https://github.com/bethpcassidy"
-                      class="btn btn-lg btn-secondary fw-bold border-white bg-dark"
+                      class="btn btn-lg btn-secondary fw-bold border-grey bg-dark"
                     >
                       Github
                     </a>
                   </CTooltip>
 
                   <CTooltip content="Go straight to posts">
-                    <a href="" class="btn btn-lg btn-secondary fw-bold border-white bg-dark">
+                    <a href="" class="btn btn-lg btn-secondary fw-bold border-grey bg-dark">
                       Posts
                     </a>
                   </CTooltip>
                   <CTooltip content="Got to my linkedin">
                     <a
                       href="https://www.linkedin.com/in/beth-cassidy975/"
-                      class="btn btn-lg btn-secondary fw-bold border-white bg-dark"
+                      class="btn btn-lg btn-secondary fw-bold border-grey bg-dark"
                     >
                       Linkedin
                     </a>

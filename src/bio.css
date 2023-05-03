@@ -12,14 +12,15 @@
 .lead {
   margin: auto;
   color: grey;
-  padding: 2em;
+  padding: 1.3em 2em 4.5em 2em;
 }
 
 .name{
   margin: auto;
   color: white;
-  padding: 6.5cm 4cm 2cm 4cm;;
+  padding: 8cm 4cm 1cm 4cm;;
   font-size: 3.5em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .button{
