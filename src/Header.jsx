@@ -2,7 +2,7 @@ export function Header() {
   return (
     <div>
       <header>
-        <nav className="navbar navbar-dark bg-dark">
+        {/* <nav className="navbar navbar-dark bg-dark">
           <a className="navbar-brand" herf="#"></a>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -15,7 +15,7 @@ export function Header() {
               |
             </ul>
           </div>
-        </nav>
+        </nav> */}
       </header>
     </div>
   );

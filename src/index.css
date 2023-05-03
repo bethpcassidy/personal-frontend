@@ -34,13 +34,13 @@ html {
 }
 
 .title-card { 
-  background-color: grey;
-  color: rgb(17, 17, 17);
+  background-color: rgb(25, 24, 24);
+  color: grey;
   border-radius: 8px;
 }
 
 .card-body {
-  color: white;
+  color: grey;
   background-color: rgb(17, 17, 17);
   border-radius: 8x
 }
