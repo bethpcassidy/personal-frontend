@@ -25,18 +25,21 @@ html {
 .card-header {
   color: black;
   background-color: grey;
+  padding: 1cm;
 }
 
 .text-center {
-  color: grey;
+  color: rgb(189, 186, 186);
   background-color: rgb(17, 17, 17);
   border-radius: 8px;
+  padding: .3cm;
 }
 
 .title-card { 
   background-color: rgb(25, 24, 24);
-  color: grey;
+  color: (189, 186, 186);
   border-radius: 8px;
+  padding: .3cm;
 }
 
 .card-body {
