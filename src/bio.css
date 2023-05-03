@@ -24,5 +24,21 @@
 }
 
 .button{
-  padding: 2em;
+  padding: 2.5em;
+}
+
+li {
+  display: inline-block;
+  padding-left: 1cm;
+  padding-right: 1cm;
+}
+
+a {
+  width: 6cm;
+}
+
+.inner {
+  margin: auto;
+  color: rgb(174, 173, 173);
+  font-weight: lighter;
 }

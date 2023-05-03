@@ -20,7 +20,7 @@ html {
 .images-container {
   color: grey;
   background-color: black;
-}
+border-radius: 8px;}
 
 .card-header {
   color: black;
@@ -31,13 +31,13 @@ html {
 .text-center {
   color: rgb(189, 186, 186);
   background-color: rgb(17, 17, 17);
-  border-radius: 8px;
   padding: .3cm;
+  border-radius: 8px;
 }
 
 .title-card { 
   background-color: rgb(25, 24, 24);
-  color: (189, 186, 186);
+  color: rgb(189, 186, 186);
   border-radius: 8px;
   padding: .3cm;
 }
@@ -45,5 +45,12 @@ html {
 .card-body {
   color: grey;
   background-color: rgb(17, 17, 17);
-  border-radius: 8x
+  border-radius: 8px;
+  color: rgb(189, 186, 186);
+}
+
+.card-text {
+  border-radius: 8px;
+  padding: .3cm;
+  color: rgb(189, 186, 186);
 }

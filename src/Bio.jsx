@@ -22,28 +22,36 @@ export function Bio(props) {
               <p class="lead">{bio.bodytext}</p>
               <p class="lead">
                 <div class="button">
-                  <CTooltip content="Go to my Github homepage.">
-                    <a
-                      href="https://github.com/bethpcassidy"
-                      class="btn btn-lg btn-secondary fw-bold border-grey bg-dark"
-                    >
-                      Github
-                    </a>
-                  </CTooltip>
+                  <ul class="list">
+                    <li>
+                      <CTooltip content="Go to my Github homepage.">
+                        <a
+                          href="https://github.com/bethpcassidy"
+                          class="btn btn-lg btn-secondary fw-bold border-grey bg-dark"
+                        >
+                          <p class="inner">Github</p>
+                        </a>
+                      </CTooltip>
+                    </li>
 
-                  <CTooltip content="Go straight to posts">
-                    <a href="" class="btn btn-lg btn-secondary fw-bold border-grey bg-dark">
-                      Posts
-                    </a>
-                  </CTooltip>
-                  <CTooltip content="Got to my linkedin">
-                    <a
-                      href="https://www.linkedin.com/in/beth-cassidy975/"
-                      class="btn btn-lg btn-secondary fw-bold border-grey bg-dark"
-                    >
-                      Linkedin
-                    </a>
-                  </CTooltip>
+                    <li>
+                      <CTooltip content="Go straight to posts">
+                        <a href="" class="btn btn-lg btn-secondary fw-bold border-grey bg-dark">
+                          <p class="inner">Posts</p>
+                        </a>
+                      </CTooltip>
+                    </li>
+                    <li>
+                      <CTooltip content="Got to my linkedin">
+                        <a
+                          href="https://www.linkedin.com/in/beth-cassidy975/"
+                          class="btn btn-lg btn-secondary fw-bold border-grey bg-dark"
+                        >
+                          <p class="inner">Linkedin</p>
+                        </a>
+                      </CTooltip>
+                    </li>
+                  </ul>
                 </div>
               </p>
             </main>
