@@ -4,6 +4,7 @@ html {
 
 .card {
   background-color: black;
+  color: rgb(189, 186, 186);
 }
 
 .card-container {
@@ -13,7 +14,7 @@ html {
 
 .card-img {
   padding: 2em;
-  max-width: 10cm;
+  max-width: 20rem;
   color: grey;
 }
 
@@ -24,12 +25,18 @@ border-radius: 8px;}
 
 .card-header {
   color: black;
-  background-color: grey;
-  padding: 1cm;
+  background-color: rgb(0, 0, 0);
+  padding-top: 1cm;
+}
+
+.sep {
+  padding-top: .2cm;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-center {
-  color: rgb(189, 186, 186);
+  color: rgb(213, 213, 213);
   background-color: rgb(17, 17, 17);
   padding: .3cm;
   border-radius: 8px;
@@ -37,16 +44,17 @@ border-radius: 8px;}
 
 .title-card { 
   background-color: rgb(25, 24, 24);
-  color: rgb(189, 186, 186);
+  color: rgb(213, 213, 213);
   border-radius: 8px;
   padding: .3cm;
+  font-size: 40px;
 }
 
 .card-body {
-  color: grey;
   background-color: rgb(17, 17, 17);
   border-radius: 8px;
   color: rgb(189, 186, 186);
+  padding: .3cm;
 }
 
 .card-text {

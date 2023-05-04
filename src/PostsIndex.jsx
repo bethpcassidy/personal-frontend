@@ -8,7 +8,7 @@ export function PostsIndex(props) {
       <div class="card text-center bg-dark">
         <h1 class="text-center">All Posts</h1>
         {props.posts.map((post) => (
-          <div key={post.id}>
+          <div class="sep" key={post.id}>
             <div class="card-header">
               <h2 class="title-card">{post.title}</h2>
             </div>
