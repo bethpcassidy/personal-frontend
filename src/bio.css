@@ -12,19 +12,19 @@
 .lead {
   margin: auto;
   color: grey;
-  padding: 1.3em 2em 2em 2em;
+  padding: 1.3em 2em 1.3em 2em;
 }
 
 .name{
   margin: auto;
   color: white;
-  padding: 6cm 4cm 1cm 4cm;;
+  padding: 6cm 4cm .4cm 4cm;;
   font-size: 3.5em;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .button{
-  padding-bottom: 9em;
+  padding-bottom: 11em;
 }
 
 li {
@@ -34,7 +34,7 @@ li {
 }
 
 a {
-  width: 6cm;
+  width: 4cm;
 }
 
 .inner {
