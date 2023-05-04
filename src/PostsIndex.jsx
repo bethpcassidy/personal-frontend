@@ -6,7 +6,7 @@ export function PostsIndex(props) {
   return (
     <div class="card-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <div class="card text-center bg-dark">
-        <h1 class="text-center">All Posts</h1>
+        <h1 class="text-center">Projects</h1>
         {props.posts.map((post) => (
           <div class="sep" key={post.id}>
             <div class="card-header">
@@ -22,7 +22,7 @@ export function PostsIndex(props) {
               <h5 className="card-title">{post.subline}</h5>
               <p className="card-text">{post.body}</p>
               <button className="btn btn-dark" onClick={() => props.onShowPost(post)}>
-                More info
+                Github Page
               </button>
             </div>
           </div>
