@@ -21,7 +21,7 @@ html {
 .images-container {
   color: grey;
   background-color: black;
-border-radius: 8px;}
+}
 
 .card-header {
   color: black;
@@ -31,34 +31,33 @@ border-radius: 8px;}
 
 .sep {
   padding-top: .2cm;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
-.text-center {
+.text-center1 {
   color: rgb(213, 213, 213);
   background-color: rgb(17, 17, 17);
-  padding: .3cm;
-  border-radius: 8px;
+  padding: 2rem;
+  font-size: 60px;
 }
 
 .title-card { 
   background-color: rgb(25, 24, 24);
   color: rgb(213, 213, 213);
-  border-radius: 8px;
-  padding: .3cm;
+  border-radius: 50px;
+  padding-top: .3cm;
+  padding-bottom: .3cm;
   font-size: 40px;
 }
 
 .card-body {
   background-color: rgb(17, 17, 17);
-  border-radius: 8px;
   color: rgb(189, 186, 186);
   padding: .3cm;
 }
 
 .card-text {
-  border-radius: 8px;
   padding: .3cm;
   color: rgb(189, 186, 186);
 }

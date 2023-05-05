@@ -6,7 +6,7 @@ export function PostsIndex(props) {
   return (
     <div class="card-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <div class="card text-center bg-dark">
-        <h1 class="text-center">Projects</h1>
+        <h1 class="text-center1">Projects</h1>
         {props.posts.map((post) => (
           <div class="sep" key={post.id}>
             <div class="card-header">
