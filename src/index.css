@@ -5,6 +5,8 @@ html {
 .card {
   background-color: black;
   color: rgb(189, 186, 186);
+  max-width: 66rem;
+  margin:auto;
 }
 
 .card-container {
@@ -14,7 +16,7 @@ html {
 
 .card-img {
   padding: 2em;
-  max-width: 20rem;
+  max-width: 18rem;
   color: grey;
 }
 
@@ -34,6 +36,7 @@ html {
   padding-left: 4rem;
   padding-right: 4rem;
 }
+
 
 .text-center1 {
   color: rgb(213, 213, 213);
