@@ -1,6 +1,7 @@
 import { CTooltip } from "@coreui/react";
 import "./bio.css";
 import Snowfall from "react-snowfall";
+import { Link } from "react-scroll";
 
 export function Bio(props) {
   return (
@@ -36,9 +37,16 @@ export function Bio(props) {
 
                     <li>
                       <CTooltip content="Go straight to posts">
-                        <a href="" class="btn btn-lg btn-secondary fw-bold border-grey bg-dark">
+                        <Link
+                          to="PIndex"
+                          spy={true}
+                          smooth={true}
+                          offset={50}
+                          duration={500}
+                          class="btn btn-lg btn-secondary fw-bold border-grey bg-dark"
+                        >
                           <p class="inner">Posts</p>
-                        </a>
+                        </Link>
                       </CTooltip>
                     </li>
                     <li>
