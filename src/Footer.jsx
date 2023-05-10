@@ -1,7 +1,3 @@
 export function Footer() {
-  return (
-    <footer>
-      <p>meow</p>
-    </footer>
-  );
+  return <footer></footer>;
 }

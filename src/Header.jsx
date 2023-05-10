@@ -1,6 +1,7 @@
+import "./Header.css";
 export function Header() {
   return (
-    <div>
+    <div class="header">
       <header>
         {/* <nav className="navbar navbar-dark bg-dark">
           <a className="navbar-brand" herf="#"></a>
