@@ -37,16 +37,18 @@ export function Bio(props) {
 
                     <li>
                       <CTooltip content="Go straight to posts">
-                        <Link
-                          to="PIndex"
-                          spy={true}
-                          smooth={true}
-                          offset={50}
-                          duration={500}
-                          class="btn btn-lg btn-secondary fw-bold border-grey bg-dark"
-                        >
-                          <p class="inner">Posts</p>
-                        </Link>
+                        <a class="btn btn-lg btn-secondary fw-bold border-grey bg-dark">
+                          <Link
+                            to="PIndex"
+                            spy={true}
+                            smooth={true}
+                            offset={50}
+                            duration={500}
+                            class="btn btn-lg btn-secondary fw-bold border-grey bg-dark"
+                          >
+                            <p class="inner">Posts</p>
+                          </Link>
+                        </a>
                       </CTooltip>
                     </li>
                     <li>
